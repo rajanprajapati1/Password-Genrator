@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    background-color: palevioletred ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+ width: 390px;
+ height: 240px;
+ background-color: white;
+ border-radius: 7px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.box h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 18px 0;
+}
+.box input{
+    width: 70%;
+    padding: 13px 10px;
+    margin: 5px 55px 0 ;
+    border: 1px solid black;
+    border-radius: 3px;
+    outline: none;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 2px;
+    position: relative;
+}
+.box #copy{
+    position: absolute;
+    content: ' ';
+    width: 20px;
+    height: 20px;
+    background-color: pink;
+    margin: 85px  ;
+    right: 470px;
+    border-radius: 50%;
+}
+#copy:active{
+    background-color: rgb(254, 142, 160);
+    scale: 1.1;
+}
+
+.box button{
+    padding: 12px 15px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 9px;
+    background-color: rgb(245, 60, 91);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.box button:active{
+    color: rgb(245, 60, 91);
+    background-color:white;
+    border: 1px solid grey;
+
+}
